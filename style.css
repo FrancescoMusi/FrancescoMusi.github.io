@@ -1,0 +1,99 @@
+body {
+  font-family: calibri;
+}
+
+p {
+  font-size: 23px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+#logo {
+  background-image: url('./img/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  height: 20%;
+}
+
+#logo img {
+  width: 100px;
+  margin: 5px;
+}
+
+#logo a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#logo a:hover {
+  background-color: #f1c40f;
+  color: black;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: 8px;
+
+}
+
+#titolo {
+  display: block;
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  padding: 5%
+}
+
+.testo {
+  padding-right: 8%;
+  padding-left: 8%;
+  margin-bottom: 100px;
+}
+
+#squadra {
+  padding-right: 8%;
+  padding-left: 8%;
+  margin-bottom: 100px;
+}
+
+
+#squadra * {
+  box-sizing: border-box;
+}
+
+.player {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.player img {
+  width:100%
+}
+
+.player h3 {
+  font-size: 25px;
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

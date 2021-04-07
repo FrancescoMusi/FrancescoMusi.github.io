@@ -1,0 +1,284 @@
+body {
+  font-family: calibri;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 23px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+#logo {
+  background-image: url('C:/Users/franc/Desktop/html/es/img/shop/logo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  height: 400px;
+}
+
+#logo img {
+  width: 100px;
+  margin: 5px;
+}
+
+#logo a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#logo a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: 8px;
+
+}
+
+#logo h1 {
+  text-align: left;
+  color: white;
+}
+
+#nome {
+  margin: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-family: Raleway;
+}
+
+#titolo {
+  display: block;
+  text-align: center;
+  font-weight: bold; 
+  font-size: 120px;
+  padding: 20px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+#frase {
+  margin: 0px;
+  padding: 20px;  
+  font-size: 30px;
+  font-style: italic;
+  font-family: Raleway;
+}
+
+/*fine header*/
+
+
+* {
+box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto; /*su giù = 0, dx e sx = auto*/
+  padding: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+
+/*bottoni*/
+
+.shop-item-button {
+  background-color: #bdc3c7;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 2px;
+}
+
+.shop-item-button:hover {
+  background-color: #ecf0f1;
+  border: 2px solid black;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+#btn-purchase {
+  background-color: #bdc3c7;
+  border: none;
+  border-radius: 7px;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 40px auto 80px auto;
+  display: block; /*viene visto come un blocco, non ha nulla di fianco*/
+
+}
+
+.btn-purchase:hover {
+  background-color: #ecf0f1;
+  border: 2px solid black;
+  padding: 13px 18px;
+  margin: 40px auto 80px auto;
+  display: block;
+}
+
+.btn-remove {
+  background-color: #c0392b;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
+}
+
+.btn-remove:hover {
+  background-color: #e74c3c;
+  border: 2px solid black;
+  padding: 6px 18px;
+  display: block;
+}
+
+/*fine bottoni*/
+
+
+/*items*/
+
+.item {
+  margin: 30px;
+}
+
+.item-title {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.item-image {
+  height: 250px;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.item-price {
+  font-size: 17px;
+  text-align: left;
+  margin-right: auto; 
+}
+
+.items {
+  display: flex; /*può avere cose di fianco e riempie lo spazio del box*/
+  justify-content: space-around;
+}
+
+
+/*fine items*/
+
+
+
+
+/*carrello*/
+
+.cart-header {
+  font-weight: bold;
+  font-size: 17px;
+  border-bottom: 1px solid black;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex; /*per allineare*/
+}
+
+.cart-item {
+  width: 50%;
+}
+
+.cart-price {
+  width: 20%;
+}
+
+.cart-quantity {
+  width: 30%;
+}
+
+.cart-item-title {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cart-quantity-input {
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: rgb(235, 235, 235);
+  padding: 0;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+#cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+#cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+

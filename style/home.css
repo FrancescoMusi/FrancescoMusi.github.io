@@ -1,5 +1,7 @@
 body {
   font-family: calibri;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -11,12 +13,12 @@ h1 {
 }
 
 #logo {
-  background-image: url('./img/bg.jpg');
+  background-image: url('C:/Users/franc/Desktop/html/es/img/home/logo.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
-  height: 20%;
+  height: 350px;
 }
 
 #logo img {
@@ -45,7 +47,8 @@ h1 {
 
 #titolo {
   display: block;
-  font-size: 80px;
+  font-size: 100px;
+  font-weight: bold; 
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
@@ -54,6 +57,9 @@ h1 {
   color: white;
   padding: 5%
 }
+
+/*fine header*/
+
 
 .testo {
   padding-right: 8%;

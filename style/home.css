@@ -13,7 +13,7 @@ h1 {
 }
 
 #logo {
-  background-image: url('C:/Users/franc/Desktop/html/es/img/home/logo.jpg');
+  background-image: url('../img/home/logo.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
@@ -117,12 +117,3 @@ h1 {
   padding: 3px;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-

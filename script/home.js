@@ -1,7 +1,7 @@
-function readMore() {
-  let more = document.getElementById("more");
-  let button = document.getElementById("readMore");
+const more = document.getElementById("more");
+const button = document.getElementById("readMore");
 
+function readMore() {
   if (more.style.display === "inline") {
     button.innerHTML = "Leggi di più";
     more.style.display = "none";
